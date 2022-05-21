@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nix-playwright-poc"
+version = "0.1.0"
+description = "Proof of concept for nix-playwright-wiring"
+authors = ["Simon Kohlmeyer <simon.kohlmeyer@gmail.com>"]
+license = "IDGAF"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+playwright = "^1.22.0"
+pytest-playwright = "^0.3.0"
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
